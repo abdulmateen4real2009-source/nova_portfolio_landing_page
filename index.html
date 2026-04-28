@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NOVA | Abdul Mateen</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<div class="cursor"></div>
+<div class="overlay-grid"></div>
+
+<!-- NAV -->
+<nav>
+  <h2>NOVA <span>OS</span></h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header>
+  <h1>NOVA <span>AGENCY</span></h1>
+  <p class="subtitle" id="typewriter"></p>
+
+  <div class="cta-row">
+    <a class="btn" href="#projects">Explore Work</a>
+    <a class="btn outline" href="mailto:abdulmateen4real2009@gmail.com">Hire Me</a>
+    <a class="btn outline" href="https://wa.me/2349135196246" target="_blank">WhatsApp</a>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About NOVA</h2>
+
+  <div class="grid">
+    <div class="card">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b"/>
+      <div class="card-content">Frontend Engineering Systems</div>
+    </div>
+
+    <div class="card">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1555949963-aa79dcee981c"/>
+      <div class="card-content">Backend & Cloud Architecture</div>
+    </div>
+
+    <div class="card">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31"/>
+      <div class="card-content">UI/UX Product Systems</div>
+    </div>
+  </div>
+
+  <div class="about-text">
+    <p>
+      <b>Abdul Mateen</b> is the creator behind NOVA — a digital engineering brand focused on building scalable SaaS platforms, automation systems, and modern web applications.
+    </p>
+    <p>
+      The goal is simple: build production-grade digital products that feel like Silicon Valley startups.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2>Services</h2>
+
+  <div class="grid">
+    <div class="card">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1559028012-481c04fa702d"/>
+      <div class="card-content">UI/UX Systems</div>
+    </div>
+
+    <div class="card">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"/>
+      <div class="card-content">Automation Tools</div>
+    </div>
+
+    <div class="card">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1555949963-aa79dcee981c"/>
+      <div class="card-content">Backend Developments</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="grid">
+    <div class="card project" data-title="Agency OS" data-desc="Full SaaS dashboard system">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"/>
+      <div class="card-content">Agency OS Dashboard</div>
+    </div>
+
+    <div class="card project" data-title="CRM Engine" data-desc="Automation CRM system">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71"/>
+      <div class="card-content">CRM Automation</div>
+    </div>
+
+    <div class="card project" data-title="SaaS UI" data-desc="Premium SaaS interface">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1551650975-87deedd944c3"/>
+      <div class="card-content">SaaS Platform</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="cta">
+  <h2>Let’s Build Something Big</h2>
+
+  <div class="cta-row">
+    <a class="btn" href="mailto:abdulmateen4real2009@gmail.com">Email Me</a>
+    <a class="btn outline" href="https://wa.me/2349135196246">WhatsApp</a>
+  </div>
+</section>
+
+<footer>© 2026 NOVA | Abdul Mateen</footer>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <h3 id="mTitle"></h3>
+    <p id="mDesc"></p>
+    <button onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
